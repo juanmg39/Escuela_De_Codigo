@@ -18,7 +18,7 @@
     </p>
     <ol>
         
-        <li><h2>&lt;a></h2></li>
+        <li style="color:orangered"><h2>&lt;a></h2></li>
             <p>
                 Permite anclar una dirección URL<br>
                 Ejemplo:
@@ -26,9 +26,7 @@
             </p>
             <a href="https://www.youtube.com/">ver aplicacion </a>
 
-            <li>
-                <h2>&lt;abbr></h2>
-            </li>
+            <li style="color:orangered"><h2>&lt;abbr></h2></li>
             <p>
                 Representa una abreviación o acronimo el atributo opcional title puede ampliar
                 o describir la abrebiatura,si esta presente el atributo title tiene que contener
@@ -37,13 +35,19 @@
             </p>
             <p> yo hago <abbr title="Html">HTML</abbr> </p>
 
-            <li><h2>&lt;address></li>
+            <li style="color:orangered"><h2>&lt;address></li>
             <p>
                 Define la información de contacto del autor/propietario de un documento u artículo.<br>
                 Ejemplo:
             </p>
-            <p><i>Escrito por</i><address href=" "></address>
-            <li><h2>&lt;article></li>
+            <address>
+                Escrito por juanmg<br>
+                juan0fficialcuenta@gmail.com<br>
+                xochimilco,cdmx<br>
+
+            </address>
+
+            <li style="color:orangered"><h2>&lt;article></li>
                 <p>
                     Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo independientemente 
                     del resto del sitio.Fuentes potenciales para el elemto article:Un artículo debe tener sintido 
@@ -53,15 +57,163 @@
                 </p>
 
                 <p>
-                    <b>NOTA:</b><article>no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
+                    <b>NOTA:</b> <article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
                     darle diseño
                 </p>
-            <li><h2>&lt;aside></li>
+                <ul>
+                <article>
+                    <li><h3>Publicación en el foro</h3></li>
+                    <li><h3>Entrada en el blog</h3></li>
+                    <li><h3>Noticia</h3></li>
+                </article>
+                </ul>
+
+            <li style="color:orangered"><h2>&lt;aside></li>
+
                 <p>
-
+                    Define algún contenido además del contenido en el que se coloca. El contenido aparte de be estar
+                    indirectamente relacionado con el continido circulante.<br>
+                    <b>Sugerencia:</b> aside se coloca a menudo como una barra lateral en un documento.<br>
+                    <b>Nota:</b>Este elemento no se muestra como algo especial en el navegador. Sin embargo, puede usar CSS para
+                    diseñar el aside.
                 </p>
-
         
+                <li style="color:orangered"><h2>&lt;audio></li>
+            <p>
+                Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source> permite especificar
+                archivos de audio alternativos entro los que puede elegirl el navegador.<br> 
+                Ejemplo:             
+            </p>
+                <audio controls> 
+                <source src="audio/teclado-mecanografia.mp3" type="audio/mp3"> 
+                </audio>
+            
+            <li style="color:orangered"><h2>&lt;button></li>
+                <p>
+                    Define un botón enel que es puede hacer clic.
+                    Dentro de un &lt;button> puedes poner texto (y etiquteas como &lt;i>,&lt;b>,&lt;strong>,&lt;img>, etc ). !Eso no es
+                    posible con un botón creado con el &lt;input>
+                    Sugerencia:Especifique siembre el type de un &lt;button>, para indicar a los navegadores qué tipo de botón
+                    es.<br>
+                    <b>   Consejo:Puede diseñar botones facilmente con CSS </b> <br>
+                   <br>
+                    Ejemplo:
+                </p>
+                <button style="background-color:forestgreen">Boton 1</button> 
+                <button style="background-color: mediumblue;">Boton2</button>
+
+                <li style="color:orangered"><h2>&lt;form></li>
+                    <p>
+                        Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
+                        verificación, botones de opción, botonees de envío, etc.<br>
+                        
+                      <ul>
+                        <li>&lt;input type="text"></li>
+                         <br>                     
+                        Mustra un campo de entrada de texto de una solo linea <br>
+                       <br> <input type="text"><br>
+                       <li>&lt;input type="radio"></li>
+                       <p>
+                        Muestra un botón de radio(para selecionar una de muchas opciones)
+                       </p>
+                       <input type="radio"> <input type="radio"> <input type="radio">
+                       <input type="checkbox">
+                       <li>&lt;input type="checkbox"></li>
+                       <p> Muestra una casilla de verificación(para selecionar cero o más opciónes)</p>
+                       <input type="checkbox"> <input type="checkbox">
+                       <li>&lt;input type="submit"></li>
+                       <p>
+                        Muestra un botón de envio(para enviar el formulario)
+                       </p>
+                       <input type="submit">
+                       <li>&lt;input type="button"></li>
+                       <p>
+                        Muestra un botón en el que se puede hacer clic
+                       </p>
+                       <input type="button">
+                       </ul>
+                       <li style="color:orangered"><h2>&lt;footer></li>
+                        <p>
+                            Define un pie de página para un documento o sección<br>
+                            Normalmente contien:
+                        </p>
+                        
+                        <li style="color:orangered"><h2>&lt;header></li>
+                            <p>
+                            Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.<br>
+                            Normalmente contiene:
+                            </p>
+                            <ul>
+                               <li>Uno a más elementos de encabezado (&lt;h1> - &lt; h6>)</li>
+                               <li>Logotipo o icono</li>
+                               <li>información de autoría</li>
+                            </ul>
+                            <p>
+                                <b>NOTA:</b> Puede tener varios &lt;header> en un documento HTML. Sin embargo, no sepuede colocar
+                                dentro de un &lt;footer>, &lt;address> u otro &lt;header>
+                                
+                            </p>
+                            Ejemplo:   
+
+                            <li style="color:orangered"><h2>&lt;hgroup></h2></li>
+                                <p>Generalmente se usa para agrupar un conjunto d euno o más elementos &lt;h1> - &lt;h6>, para agrupar, por
+                                    ejemplo, un titulo de sección y un subtitulo adjunto.
+                                </p>
+                                      
+                            <li style="color:orangered"><h2>&lt;h1> - &lt;h6></h2></li>
+                            <p>Se utilizan para definir encabezados HTML.
+                            </p>
+                            Ejemplo:
+                            <h1><mark>Hola Mundo!</mark></h1>
+                            <h3 style="color:orangered">Hola Mundo!</h3>
+
+                            <li style="color:orangered"><h2>&lt;img></h2></li>
+                            <p>
+                                Se utiliza para incrustar una imagen en una página HTML.Técnicamente, las imágenes no se insertan en una
+                                 página web; las imágenes están vinculadas a páginas web. La etiqueta &lt;ima> crea un espacio de espera
+                                  para la imagen de referencia.Tiene atributos obligatorios:
+                            </p>
+                                  <ul>
+                                    <li>src: especifica la ruta a la imagen</li>
+                                    <li>alt: especifica un texto alternativo para la imagen, si la imagen por algún motivo no se puede
+                                        mostrar</li>
+                                </ul>
+                                <li style="color:orangered"><h2>&lt;map></h2></li>
+                                <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las que se puede hacer clic.
+                                    El atributo de nombre requerido del &lt;map> esta asocioado con el atributo usemap de <img> y crea una
+                                    relación entre la imagen y el mapa.</p>
+
+
+                                    <li style="color:orangered"><h2>&lt;nav></h2></li>
+                                    <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las que se puede hacer clic.
+                                        El atributo de nombre requerido del &lt;map> esta asocioado con el atributo usemap de <img> y crea una
+                                        relación entre la imagen y el mapa.</p>
+                                        Ejemplo:
+
+                                        <li style="color:orangered"><h2>&lt;p></h2></li>
+                                        <p>Define un párrafo.
+                                            Los navegadores agregan automáticamente una línea en blanco antes y después de cada &lt;p>
+                                        </p>
+                                        <li style="color:orangered"><h2>&lt;script></h2></li>
+                                        <p>Se utiliza para incrustar un script del lado del cliente <b>JavaScript</b>
+                                            Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia de comandos
+                                            externos a través del atributo <b>arc</b><br>
+                                            Los usus comunes de <b>JavaScript</b> son manipulación de imágenes, la validación de formularios y los
+                                            cambis dinámicos de contenido.<br>
+                                            <b>Nota:</b> <i>cuando un navegador lee una hoja de estilo, formateará el documento HTML de acuerdo con la
+                                                información de la hoja de estilo. Si se han definido algunas propiedades para el mismo selector
+                                                (elemento) en diferentes hojas de estilo, se utilizará el valor de la última hoja de estilo leída (consulte el
+                                                ejemplo a continuación).</i>
+                                            </p>
+                                            <li style="color:orangered"><h2>&lt;style></h2></li>
+                                            <p>Se utiliza para definir la información de estilo CSS de un documento
+                                                Dentro de &lt;style>, especifica cómo deben mostrarse los elementos HTML en un navegador.<br>
+                                                Ejemplo
+                                                </p>
+                                                <li style="color:orangered"><h2>&lt;section></h2></li>
+                                                <p>Define una sección en un documento
+                                                </p>
+                                                
     </ol>
 
 </body>
