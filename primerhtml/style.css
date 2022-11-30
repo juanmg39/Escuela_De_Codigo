@@ -1,0 +1,44 @@
+.list{
+    width: 17%;
+    float: left;
+    height: 350px;
+    background-color: rgb(184, 118, 245);
+    text-align:end;
+    border-radius: 15px;
+    margin: 6px;
+   font-size: large;
+}
+section{
+    width: 40%;
+    float:left;
+    height: 350px;
+    background-color: rgb(129, 194, 255);
+    text-align:center;
+    border-radius: 15px;
+    margin: 6px;
+    font-size:larger;
+   
+}
+aside{
+    width: 40%;
+    float:left;
+    height: 350px;
+    background-color: rgb(129, 194, 255);
+    text-align:center;
+    border-radius: 15px;
+    border: solid black 1px;
+    margin: 6px;
+    font-size:larger;
+   
+ }
+ footer{
+    text-align: center;  
+    font-size: large;
+    background-color:rgba(255, 129, 129, 0.836);
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 15px;
+    margin: 6px;
+    float: left;
+    
+     
+ }
