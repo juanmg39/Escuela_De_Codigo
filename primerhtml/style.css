@@ -1,27 +1,32 @@
-.list{
-    width: 17%;
-    float: left;
+.box{
+    width: 20%;
+    float:left;
+    
     height: 350px;
     background-color: rgb(184, 118, 245);
     text-align:end;
     border-radius: 15px;
+     border: solid black 1px;
     margin: 6px;
    font-size: large;
 }
-section{
-    width: 40%;
+.article{
     float:left;
+    width: 37%;
     height: 350px;
     background-color: rgb(129, 194, 255);
     text-align:center;
-    border-radius: 15px;
+    border-radius:15px;
+    border: solid black 1px;
     margin: 6px;
     font-size:larger;
+    
    
 }
-aside{
-    width: 40%;
-    float:left;
+    .aside{
+    width: 37%;
+    float: left;
+    
     height: 350px;
     background-color: rgb(129, 194, 255);
     text-align:center;
@@ -31,14 +36,17 @@ aside{
     font-size:larger;
    
  }
- footer{
+  .footer{
+
+   
+   clear: both;
+   font-size: larger;
+   height: 80px;
+    
     text-align: center;  
-    font-size: large;
     background-color:rgba(255, 129, 129, 0.836);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 15px;
     margin: 6px;
-    float: left;
-    
-     
  }
+ 
