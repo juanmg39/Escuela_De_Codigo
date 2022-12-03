@@ -1,7 +1,12 @@
-.box{
+/*ALINEAR cuadros*/
+.cuadro{
+    display: flex;
+
+}
+
+
+.lista{
     width: 20%;
-    float:left;
-    
     height: 350px;
     background-color: rgb(184, 118, 245);
     text-align:end;
@@ -9,10 +14,20 @@
      border: solid black 1px;
     margin: 6px;
    font-size: large;
+   
 }
-.article{
-    float:left;
-    width: 37%;
+li{
+    font-size: 23px;
+    text-align:right;
+    padding: 3px;
+    margin: 12px;
+    list-style: none;
+    
+
+}
+
+.doscuadro{
+    width: 40%;
     height: 350px;
     background-color: rgb(129, 194, 255);
     text-align:center;
@@ -20,33 +35,47 @@
     border: solid black 1px;
     margin: 6px;
     font-size:larger;
-    
    
-}
-    .aside{
-    width: 37%;
-    float: left;
-    
+     }
+     .textouno{
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(255, 6, 89); */
+        text-align: center;
+       
+
+     }
+     h1{
+      margin-top: 3%;
+      font-weight: bold;
+     }
+     .textodos{
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(182, 94, 255); */
+        text-align: center;
+
+     }
+
+    aside{
+    width: 40%;
+    font-size: larger;
     height: 350px;
     background-color: rgb(129, 194, 255);
     text-align:center;
     border-radius: 15px;
     border: solid black 1px;
     margin: 6px;
-    font-size:larger;
-   
- }
-  .footer{
-
-   
-   clear: both;
-   font-size: larger;
-   height: 80px;
     
+   
+
+ }
+  footer{
+
+   font-size: larger;
     text-align: center;  
     background-color:rgba(255, 129, 129, 0.836);
     border: solid rgb(0, 0, 0) 1px;
     border-radius: 15px;
     margin: 6px;
  }
- 
