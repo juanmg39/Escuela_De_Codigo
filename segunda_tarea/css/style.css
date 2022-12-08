@@ -1,22 +1,56 @@
 .logo{
-    padding: 7px;
+    padding-left: 107px;
     margin-left: 30px;
     
 }
 .logo img {
-    width: 300px;
+    width: 250px;
 }
 nav{
-    background-color: palegoldenrod;
-    padding-left: 1020px;
+    background-color: #FFFFFF;
+    padding-left: 920px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid rebeccapurple 3px;
+    border-top: solid #D3D3D3 5px;
+}
+a{
+    color: #104c42;
+    font-weight: bold;
+    padding: 0 0.25rem;
+    text-decoration: none;
+
+
+}
+nav a:hover{
+    border-bottom: solid 1px;
 }
 .imgcdmx{
     background: url(../img/hero.jpg) 100% / cover no-repeat;
     height: 338px;
 
 }
+footer{
+    font-size: large;
+    text-align: center;
+    }
+    h1{
+        color: #b08f5c;
+        margin-bottom: 0.25rem;
+        text-align: center;
+
+    }
+
+    .texto{
+        line-height: 0%;
+    }
+    strong{
+        font-size: bolder;
+        color: #646D6C;
+    }
+    p{
+        margin-top: 0%;
+        color: #646D7A;
+    }
+    
