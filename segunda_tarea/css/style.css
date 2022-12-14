@@ -33,20 +33,58 @@ nav a:hover{
     padding: 40px 0px 0px 300px;
     /* line-height: 0%; */
 }
-.imgcdmx .puno{
+.grid-de-letras{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    /* background-color: #2025; */
+}
+.grid-item{
+    /* background-color: rgb(255, 255, 255, 0.8);
+    rgb(255, 255, 255, 0.8) */
+    
+    padding: 20px;
+    font-size: 30px;
+}
+.item1{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.item2{
+    grid-column: 2;
+    grid-row: 2;
+    color: #FFFFFF;
+    font-size: 40px;
+
+}
+.item3{
+    grid-column: 3;
+    grid-row: 2 / 4;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.item4{
+    grid-column: 3;
+    grid-row: 4;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+/* .imgcdmx .puno{
     color: #FFFFFF;
     font-size: 50px;
     font-weight: bolder;
     /* line-height: 0%; */
-}
+/* }
 .imgcdmx .pdos{
     color: #FFFFFF;
     font-size: 50px;
     /* margin: 84px 64px; */
-    font: 31px;
-    padding: 0px,16px,0px,0px;
+    /* font: 31px;
+    padding: 0px,16px,0px,0px;  */
 
-}
+/* }
 .imgcdmx .ptres{
     color: #FFFFFF;
     font-size: 50px;
@@ -58,7 +96,7 @@ nav a:hover{
     font-size: 50px;
     margin-top: 0%;
 
-}
+} */ 
 .imgcdmx img{
     margin-left: 00px;
     margin-top: 30px;
