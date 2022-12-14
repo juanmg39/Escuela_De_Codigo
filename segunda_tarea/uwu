@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escuela de codigo</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../segunda_tarea/css/style.css">
 </head>
 <body>
@@ -12,21 +12,14 @@
         <img src="..//segunda_tarea/img/logo.svg" alt="">
     </div>
     <nav>
+        <!-- <div class="separar"> -->
         <a style="margin: 20px ;" href="">Residentes</a>
         <a style="margin: 20px ;"href="">Negocios</a>
         <a style="margin: 20px ;"href="">Visitantes</a>
         <a style="margin: 20px ;"href="">Gobierno</a>
-    
+    <!-- </div> -->
     </nav>
     <section class="imgcdmx">
-            <div><img src="..//segunda_tarea/img/hero-vector.svg" alt=""></div>
-            <div style="width: 900px; background-color: transparent; line-height: 100%; margin-top: 40px;">
-                <p class="puno">APRENDE A PROGRAMAR</p>
-                <p class="pdos">EN LAS</p>
-                <p class="ptres">ESCUELAS DE CÓDIGO</p>
-                <p class="pcuatro">DE LA CDMX</p>
-                <!-- <h2 style="color: white;">Ea consectetur cillum ea sit consequat reprehenderit consequat elit Lorem voluptate. Dolore aute occaecat occaecat et. Laboris dolor ea laboris eu in cillum eiusmod. Eu esse Lorem pariatur adipisicing reprehenderit eu voluptate amet elit sunt. Labore officia ullamco nulla exercitation magna dolore adipisicing cupidatat est anim Lorem culpa pariatur. Excepteur occaecat consectetur aute duis fugiat veniam incididunt.</h2 style="color: white;"> -->
-            </div>
     </section>
     <footer>
         <h1>¿Quién se puede inscribir?</h1>
@@ -42,4 +35,3 @@
     
 </body>
 </html>
-<img>
