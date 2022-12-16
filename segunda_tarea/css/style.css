@@ -30,46 +30,61 @@ nav a:hover{
     background: url(../img/hero.jpg) 100% / cover no-repeat;
     height: 338px;
     display: flex;
-    padding: 40px 0px 0px 300px;
+    padding: 40px 0px 0px 150px;
     /* line-height: 0%; */
 }
 .grid-de-letras{
     display: grid;
-    gap: 10px;
+    gap: 0px;
     padding: 10px;
-    /* background-color: #2025; */
+    background-color: #2025;
+    
 }
 .grid-item{
     /* background-color: rgb(255, 255, 255, 0.8);
     rgb(255, 255, 255, 0.8) */
+    background-color: #104c42;
     
-    padding: 20px;
     font-size: 30px;
 }
 .item1{
     grid-column: 1 / 4;
     grid-row: 1;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    /* background-color: aquamarine; */
+    padding-left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .item2{
     grid-column: 2;
     grid-row: 2;
     color: #FFFFFF;
     font-size: 40px;
+    padding-top: 0%;
+    padding-left: 0%;
+    
 
 }
 .item3{
     grid-column: 3;
-    grid-row: 2 / 4;
+    grid-row: 2/ 4;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 60px;
+    margin: 0px;
+    padding-left: 0%;
+    padding-top: 0%;
+    font-weight: bolder;
+    font-family: sourcecodepro ;
 }
 .item4{
     grid-column: 3;
     grid-row: 4;
     color: #FFFFFF;
     font-size: 40px;
+    padding-top: 0%;
+    padding-left: 0%;
 }
 /* .imgcdmx .puno{
     color: #FFFFFF;

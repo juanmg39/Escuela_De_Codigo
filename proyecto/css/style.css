@@ -1,64 +1,171 @@
-nav{
-    background-color: aquamarine;
-    width: 100%;
-    height: 70px;
-    margin-left: 100px;
-    margin-top: 50%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-nav a{
-    margin-left: 0%;
-    padding-left: 100px;
-
-}
-nav button{
-    margin-left: 20px;
-    float: right;
-}
+/* Parte de la barra de arriba */
 header{
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    background: color #777;
+    align-items: center;
+    height: 80px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.bton{
+    margin-right: 70px;
+}
+.bton .bun{
+    border: 1px solid rgb(71, 71, 71) ;
+    border-radius: 8px 9px 8px 8px ;
+    font-size: 17px;
+}
+.bton .bdo{
+    color: white;
+    background-color: black;
+    /* border: 1px solid rgb(71, 71, 71) ; */
+    border-radius: 8px 9px 8px 8px ;
+    font-size: 17px;
+}
+nav{
+    margin-left: 30px;
+}
+/* Parte del titulo dela pagina  */
+section{
+    background-color: #016241;
     width: 100%;
     height: 300px;
   text-align: center;
   padding-top: 20px;
   
 }
-header h1{
+section h1{
     font-size: 40px;
+    color: #F7FEFD;
 }
-header p{
+section p{
     font-size: 30px;
+    color: #85BCA9;
 }
-/* .bloque{
+/* parte 1 de la section ALEBRIJES MEXICANOS */
+article{
     width: 100%;
-    background-color: brown;
-    height: 500px;
-    display: inline-block;
-   
-}
-.bloque img{
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-}
-
-.bloque h1 p{
-    display: inline-block;
-} */
-.bloq{
-    width: 100%;
-    background-color: blueviolet;
+    background-color: #D40032;
     height: 500px;
    display: flex;
-    
+   margin-top: 20px;
 }
-.bloq img{
-    height: 100%;
+.imga{
     width: 50%;
+    height: 100%;
+    display: flex;
+}
+.titu{
+    width: 50%;  
+}
+.titu h1{
+    width: 100%;
+    height: 40%;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    color: #F7FEFD;
+}
+.titu p{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 900;
+   margin: 0%;
+   width: 100%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: #EB6F8C;
+}
+.btn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buuno{
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    color: #D44F73;
+    background-color: transparent;
+    border: 1px solid #D44F73 ;
+    border-radius: 17px 17px 17px 17px ;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* Parte 2 de la section  */
+.partedos{
+    background-color: #D40032;
+    width: 100%;
+    height: 500px;
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 50px;
+} 
+.titulodos{
+    height: 100%;
+    width: 55%;
+}
+.imgdos{
+    width: 42%;
+}
+.titulodos h1{
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #F7FEFD;
+}
+.titulodos p{
+    width: 100%;
+    height: 30%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #EB6F8C;
+}
+.bodos{
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+    text-align: center;
+}
+.btndos{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: #D44F73;
+    background-color: transparent;
+    border: 1px solid #D44F73 ;
+    border-radius: 17px 17px 17px 17px ;
+    font-size: 17px;
+    font-weight: bold;
 
 }
-.bloq h1{
-    float: left;
+/* parte de abajo iconos */
+footer{
+    margin-top: 30px;
+    /* background-color: aqua; */
+    width: 100%;
+    padding-top: 30px;
+    border-top: solid #EDEDED 3px;
 }
