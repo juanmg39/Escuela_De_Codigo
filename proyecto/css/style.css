@@ -14,19 +14,47 @@ header{
 }
 .bton{
     margin-right: 70px;
+    text-align: center;
 }
 .bton .bun{
-    border: 1px solid rgb(71, 71, 71) ;
+    border: solid black 2px ;
+    border-radius: 25px ;
+    font-size: 17px;
+    background-color: white;
+    width: 120px;
+    margin-left: 10px;
+}
+.bun:hover{
+    background-color: black;
+    color: white;
+}
+.btnrojo{
+    border: solid white ;
+    background-color: #D40032;
+    color: white;
+    
     border-radius: 8px 9px 8px 8px ;
     font-size: 17px;
+
 }
-.bton .bdo{
+.btnrojo:hover{
+    background-color: white;
+    color: #D40032;
+}
+
+/* .bton .bdo{
     color: white;
     background-color: black;
-    /* border: 1px solid rgb(71, 71, 71) ; */
     border-radius: 8px 9px 8px 8px ;
     font-size: 17px;
-}
+} */
+ /* .bton .bdo{
+    color: white;
+    background-color: black;
+    border-radius: 8px 9px 8px 8px ;
+    font-size: 17px;
+     */
+
 nav{
     margin-left: 30px;
 }
@@ -86,15 +114,24 @@ article{
    align-items: center;
     color: #EB6F8C;
 }
-.btn{
+ .btn{
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.buuno{
-    width: 170px;
+  .buuno .btndos{
+     /* color: white;
+    background-color: black;
+    border-radius: 8px 9px 8px 8px ;
+    font-size: 17px; */
+
+    /* color: white;
+    background-color: black;
+    border-radius: 8px 9px 8px 8px ;
+    font-size: 17px; */
+    /* width: 170px;
     height: 40px;
     text-align: center;
     color: #D44F73;
@@ -102,8 +139,8 @@ article{
     border: 1px solid #D44F73 ;
     border-radius: 17px 17px 17px 17px ;
     font-size: 17px;
-    font-weight: bold;
-}
+    font-weight: bold; */
+} 
 /* Parte 2 de la section  */
 .partedos{
     background-color: #D40032;
@@ -149,7 +186,7 @@ article{
     margin: 0px;
     text-align: center;
 }
-.btndos{
+    /* .btndos .buuno{
     width: 150px;
     height: 40px;
     text-align: center;
@@ -160,7 +197,7 @@ article{
     font-size: 17px;
     font-weight: bold;
 
-}
+} */
 /* parte de abajo iconos */
 footer{
     margin-top: 30px;
