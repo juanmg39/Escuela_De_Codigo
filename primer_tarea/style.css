@@ -1,12 +1,12 @@
 body{
-    background-color: black; /*fondo de la pagina*/
+    background-color: #75C9B7; /*fondo de la pagina*/
 }
 *{
     margin: 0%;     /*QUITAR LOS BORDES DE LA PAGINA*/
 }
 header{
     text-align: center;
-    background-color: rgb(255, 200, 200);
+    background-color: #322E2F;
     color: aliceblue;
     font-size: larger;
     width: 100%;
@@ -19,8 +19,9 @@ header{
 nav{
     font-size: larger;
     text-align: center;
-    background-color: rgb(157, 243, 214);
+    background-color: #C7DDCC;
     margin-top: 4px;
+    margin-bottom: 10px;
     height:80px;
     display: flex;
     justify-content: center;    /*CENTRAR EL TEXTO */
@@ -28,16 +29,20 @@ nav{
     justify-content: space-around; /*SEPARAR LOS ENLACES <a> */
     
 }
+nav a{
+    text-decoration: none;
+}
 
 .partedos{
-    background-color: rgb(255, 104, 134);
+    background-color: #C7DDCC;
     width: 100%;
     height: 350px;
     margin-top: 6px;
     border: solid blanchedalmond 3px;
+    display: flex;
 }
 section{
-    background-color: darkorange;
+    background-color: #12A4D9;
     width: 70%;
     
     height: 95%;
@@ -46,7 +51,7 @@ section{
 
 }
 aside{
-    background-color: cornflowerblue;
+    background-color: #D9138A;
     width: 30%;
     height: 95%;
     border: 1px;
@@ -67,7 +72,7 @@ aside{
     font-size: 18px; /*tamaño de la letra*/
     }
     .apartado{
-        background-color: darkgrey;
+        /* background-color: darkgrey; */
         text-align: center;
         height: 30%;
         font-size: 24px;
@@ -76,7 +81,7 @@ aside{
         align-items: center;
     }
     .prip{
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
         height: 20%;
         text-align: center;
         display: flex;
@@ -85,14 +90,14 @@ aside{
         font-size: 20px;
     }
     .op{
-        background-color: deeppink;
+        /* background-color: deeppink; */
         height: 20%;
         text-align: center;
         font-size: 19px;
     }
     footer{
         text-align: center;
-        background-color: rgba(17, 0, 255, 0.616);
+        background-color: #E2D810;
         height: 60px;
         text-align: center;
         display: flex;
@@ -101,6 +106,7 @@ aside{
         font-size: larger;  
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-top: 10px;
     }
    
     
