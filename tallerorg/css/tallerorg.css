@@ -3,14 +3,14 @@
     margin: 0px;
 }
 body{
-    background-color: black;
+   /*  background-color: black; */
 }
 /* NAVEGADOR */
 nav{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: solid /* #D3D3D3 */ rgb(109, 109, 109) 8px;
+    border: solid #BC4749 2px;
 }
 
 /* NOMBRE DEL TALLER */
@@ -21,14 +21,28 @@ header{
     background-position: center center;
     background-size: cover;
     height: 900px;
-    border-bottom: solid /* #D3D3D3 */ rgb(109, 109, 109) 8px;
+    border-top: solid /* #D3D3D3 */ rgb(190, 188, 188) 8px;
+    display: flex;
 }
-
+/* .portada{
+    background-color: #00852c;
+    width: 50%;
+    height: 100%;
+} */
+header img{
+/*     width: 900px;
+    height: 500px; */
+    /* width: 100%; */
+    height: 50%;
+    margin-top: 60px;
+}
 /* ACERCA DEL TALLER (VIDEO) */
 .cont{
     width:100%;
     height: 600px;
-    background-color: hotpink;
+    background-color: rgb(255, 255, 255);
+    border-top: solid /* #D3D3D3 */ rgb(179, 175, 175) 8px;
+    margin-bottom: 40px;
 }
 .vi-taller{
     /* background-color: rgb(255, 0, 191); */
@@ -47,7 +61,9 @@ section{
     flex-wrap: wrap;
     justify-content:center ;
     margin: auto; 
-    background-color: rgb(0, 136, 255);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 section .card{
     width: 530px;
@@ -63,7 +79,7 @@ section .card{
 
 section .card:hover{
     transform:translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(255, 0, 0, 0.2);
 }
 
 section .card img{
@@ -83,11 +99,12 @@ section .card p{
 /* INFORMACION DEL TALLERISTA  */
 
 .info {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 /*     background-color: aquamarine; */
     font-size: 50px;
     width: 60%;
     height: 100%;
+
     /* margin-top: 110px; */
 
     display: flex;
@@ -107,24 +124,80 @@ article img{
  /*    background-color:gold ; */
 }
 article  {
-background-color: blueviolet;
+background-color: rgb(255, 255, 255);
 display:flex;
 height: 600px;
+border: solid #BC4749 2px;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 /* PARTE INSCRIBETE */
+h4{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 14ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from { width: 0;}
+}
+@keyframes blink{
+    50% { border-color: transparent;}
+}
 .registro{
    
     
-    background-color: rgb(155, 114, 85);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .info-registro{
-    background-color: aquamarine;
-    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;                      /*  EDITANDO */
     width: 50%;
-    height: 100%;
+    height: 100%;    
+}
+.info-registro, .btn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    margin-top: 25px;
+    /* margin-left: 350px; */
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        hsl(0, 100%, 67%),
+        rgb(180, 41, 76),
+        #ad000e
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+ /*    padding: 4px; */
+    cursor: pointer;
+    transition: .3s;
+}
+.btn1 span{
+    background-color: #00852c;
+    padding: 16px 24px ;
+    border-radius: 6px;
+    transition: .3s;
+}
+.btn1:hover span{
+    background: none;
+}
+.btn1:active{
+    transform: scale(0.9);
 }
 
  table, th, td{
@@ -137,4 +210,16 @@ height: 600px;
  th{
     background-color: rgb(87, 173, 0);
  }
+/*  PARTE DEL FOOTER */
+
+footer{
+    background-color: rgb(46, 163, 0);
+    text-align: center;
+    padding-bottom: 20px;
+    border-top: solid /* #D3D3D3 */ rgb(109, 109, 109) 8px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
