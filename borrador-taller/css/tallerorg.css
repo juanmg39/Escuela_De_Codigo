@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   /*  background-color: black; */
+}
+/* NAVEGADOR */
+nav{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 20px;
+    border: solid #BC4749 2px;
+}
+
+/* NOMBRE DEL TALLER */
+
+header{
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+    border-top: solid /* #D3D3D3 */ rgb(190, 188, 188) 8px;
+    display: flex;
+}
+/* .portada{
+    background-color: #00852c;
+    width: 50%;
+    height: 100%;
+} */
+header img{
+/*     width: 900px;
+    height: 500px; */
+    /* width: 100%; */
+    height: 50%;
+    margin-top: 60px;
+}
+/* ACERCA DEL TALLER (VIDEO) */
+.cont{
+    width:100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-top: solid /* #D3D3D3 */ rgb(179, 175, 175) 8px;
+    margin-bottom: 40px;
+}
+.vi-taller{
+    background-color: rgb(255, 0, 191);
+    width: 50%;
+    height: 100%;
+
+}
+
+
+/* RECURSOS DEL TALLER */
+section{
+/*     width: 100%;
+    max-width: 1200px; */
+    height: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    margin: auto; 
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+section .card{
+    width: 530px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+section .card:hover{
+    transform:translateY(-15px);
+    box-shadow: 0 12px 16px rgba(255, 0, 0, 0.2);
+}
+
+section .card img{
+    width: 330px;
+    height: 220px;
+}
+section .card h1{
+    font-weight: 600;
+
+}
+section .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+/* INFORMACION DEL TALLERISTA  */
+
+.info {
+    color: rgb(0, 0, 0);
+/*     background-color: aquamarine; */
+    font-size: 50px;
+    width: 60%;
+    height: 100%;
+
+    /* margin-top: 110px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+/*     flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+ */
+}
+
+article img{
+    width: 50%;
+    height: 100%;
+ /*    background-color:gold ; */
+}
+article  {
+background-color: rgb(255, 255, 255);
+display:flex;
+height: 600px;
+border: solid #BC4749 2px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+/* PARTE INSCRIBETE */
+h4{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 14ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from { width: 0;}
+}
+@keyframes blink{
+    50% { border-color: transparent;}
+}
+.registro{
+   
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.info-registro{
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;                      /*  EDITANDO */
+    width: 50%;
+    height: 100%;    
+}
+.info-registro, .btn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    margin-top: 25px;
+    /* margin-left: 350px; */
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        hsl(0, 100%, 67%),
+        rgb(180, 41, 76),
+        #ad000e
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+ /*    padding: 4px; */
+    cursor: pointer;
+    transition: .3s;
+}
+.btn1 span{
+    background-color: #00852c;
+    padding: 16px 24px ;
+    border-radius: 6px;
+    transition: .3s;
+}
+.btn1:hover span{
+    background: none;
+}
+.btn1:active{
+    transform: scale(0.9);
+}
+
+ table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+ }
+ th, td{
+    padding: 10px;
+ }
+ th{
+    background-color: rgb(87, 173, 0);
+ }
+/*  PARTE DEL FOOTER */
+
+footer{
+    background-color: rgb(46, 163, 0);
+    text-align: center;
+    padding-bottom: 20px;
+    border-top: solid /* #D3D3D3 */ rgb(109, 109, 109) 8px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
